@@ -197,8 +197,8 @@ def github():
 @app.route('/api/github/repos')
 def github_repos():
     try:
-        username = "anish-kandi"  # This would ideally be configurable
-        url = f"https://api.github.com/users/{Anish518}/repos"
+        username = "Anish280395"  # This would ideally be configurable
+        url = f"https://api.github.com/users/{username}/repos"
         
         # Add token if available
         headers = {}
